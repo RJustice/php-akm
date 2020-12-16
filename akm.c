@@ -413,7 +413,7 @@ PHP_FUNCTION(akm_replace)
     text_c = ZSTR_VAL(Z_STR_P(text));
     text_l = ZSTR_LEN(Z_STR_P(text));
 
-    fci.no_separation = 0;
+    /*fci.no_separation = 0;*/
     fci.param_count   = 3;
 
     chunk.astring = text_c;
